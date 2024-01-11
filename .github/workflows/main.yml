@@ -4,10 +4,10 @@ on:
   schedule:
     - cron: '0 8 3 * *'
 env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-  APP_NAME: ${{ secrets.APP_NAME }}
+  FLY_API_TOKEN: FlyV1 fm2_lJPECAAAAAAAAgALxBAJ64/BVtYcHQg4UyO2IW+9wrVodHRwczovL2FwaS5mbHkuaW8vdjGUAJLOAAa72B8Lk7lodHRwczovL2FwaS5mbHkuaW8vYWFhL3YxxDxrcp5NcSxfq0JrM+lzZubP7LYcBWofGItghICB+9Pr30shd7TT0Rxm8Lqwgxk+TeOy4OgPaD7bmUBflzDERwN3xOsw4pmWocw31dSahU8oMSFDpRmUxAMNiUZQ4tbEnDuScVdiI/1Zk9h+UybrJL5u8ZX0YpIMVXhrFGnEX2v2Fas0rne3xCBRr8mJ4flwfKwQqdGMBv8SRE7oEzeddD7LyEGksf7EMg==,fm2_lJPERwN3xOsw4pmWocw31dSahU8oMSFDpRmUxAMNiUZQ4tbEnDuScVdiI/1Zk9h+UybrJL5u8ZX0YpIMVXhrFGnEX2v2Fas0rne3xBDSDTaa09mf+DOrpKvocicew7lodHRwczovL2FwaS5mbHkuaW8vYWFhL3YxlgSSzmWf9XjPAAAAASGYE5YKkc4ABlskDMQQk9kbnf5RIFrUqpjf2TCVR8QgTxCCLD0Sg/6M+crkQokcMqyqekP79zF4WHfMC0JmQ0c=
+  APP_NAME: alist413
   SQLUSER: ${{ secrets.SQLUSER }}
-  DATABASE: ${{ secrets.DATABASE }}
+  DATABASE: sqlite3
   SQLPASSWORD: ${{ secrets.SQLPASSWORD }}
   SQLHOST: ${{ secrets.SQLHOST }}
   SQLPORT: ${{ secrets.SQLPORT }}
